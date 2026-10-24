@@ -1,8 +1,6 @@
 <div align="center">
   <!-- Interactive Terminal Window Header -->
-  <picture>
-    <img src="https://raw.githubusercontent.com/mazunai/mazunai/main/terminal.svg" width="100%" alt="Developer Terminal" />
-  </picture>
+  <img src="./terminal-cli.svg" width="100%" alt="Developer Terminal" />
 
   <br>
 
