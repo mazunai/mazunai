@@ -44,16 +44,16 @@
   </text>
   <!-- Output 1 -->
   <text x="25" y="98" class="term-text" fill="#7ee787">
-    ⚡ Maxim — Fullstack &amp; AI Engineer • Autonomous Agents &amp; Modern Web Apps
+    ⚡ Maxim — Founder &amp; Lead Engineer @ Shcoding Studio (sh-coding.ru)
   </text>
 
-  <!-- Line 2: cat tech_stack.json -->
+  <!-- Line 2: cat contacts.json -->
   <text x="25" y="136" class="term-text">
-    <tspan fill="#58a6ff" font-weight="600">mazunai@dev</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#f0f6fc">$ </tspan><tspan fill="#ffa657">cat</tspan> <tspan fill="#f0f6fc">tech_stack.json</tspan>
+    <tspan fill="#58a6ff" font-weight="600">mazunai@dev</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#f0f6fc">$ </tspan><tspan fill="#ffa657">cat</tspan> <tspan fill="#f0f6fc">studio_contacts.json</tspan>
   </text>
   <!-- Output 2 -->
   <text x="25" y="162" class="term-text" fill="#d2a8ff">
-    { "core": ["Python", "FastAPI", "Next.js", "React", "TypeScript", "PostgreSQL", "Docker"] }
+    { "website": "https://sh-coding.ru", "telegram": "t.me/mazunio", "status": "Available" }
   </text>
 
   <!-- Line 3: check_availability -->
@@ -62,15 +62,15 @@
   </text>
   <!-- Output 3 -->
   <text x="25" y="226" class="term-text" fill="#3fb950" font-weight="600">
-    🟢 STATUS: AVAILABLE FOR FREELANCE &amp; CONTRACT WORK [200 OK]
+    🟢 STATUS: AVAILABLE FOR SELECT FREELANCE &amp; STUDIO PROJECTS [200 OK]
   </text>
 
   <!-- Line 4: hire_me command -->
   <text x="25" y="264" class="term-text">
-    <tspan fill="#58a6ff" font-weight="600">mazunai@dev</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#f0f6fc">$ </tspan><tspan fill="#ffa657">./hire_me.sh</tspan> <tspan fill="#79c0ff">--project=ready</tspan>
+    <tspan fill="#58a6ff" font-weight="600">mazunai@dev</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#f0f6fc">$ </tspan><tspan fill="#ffa657">./order_project.sh</tspan> <tspan fill="#79c0ff">--studio=shcoding</tspan>
   </text>
 
-  <!-- Line 5: New clean prompt with attached blinking cursor character -->
+  <!-- Line 5: New clean prompt with attached blinking cursor -->
   <text x="25" y="298" class="term-text">
     <tspan fill="#58a6ff" font-weight="600">mazunai@dev</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#f0f6fc">$ </tspan><tspan fill="#58a6ff" class="cursor">█</tspan>
   </text>
