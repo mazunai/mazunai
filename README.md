@@ -81,12 +81,14 @@
 
 ---
 
-### 📊 АКТИВНОСТЬ &amp; МЕТРИКИ GITHUB
+### 📊 ИНЖЕНЕРНЫЕ ПОКАЗАТЕЛИ &amp; ТЕЛЕМЕТРИЯ (SHCODING STUDIO)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mazunai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=60a5fa&text_color=94a3b8&icon_color=60a5fa" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazunai&theme=tokyonight&hide_border=true&background=0d1117&ring=60a5fa&fire=f59e0b&currStreakLabel=60a5fa" height="175" alt="Streak Stats" />
+  <img src="./assets/dev-metrics.svg" width="100%" alt="Shcoding Studio Telemetry &amp; Capabilities" />
 </div>
+
+---
+
 
 ### 🕹️ RETRO CYBER ARCADE // PAC-MAN 1984
 
