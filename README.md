@@ -88,14 +88,16 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mazunai&theme=tokyonight&hide_border=true&background=0d1117&ring=60a5fa&fire=f59e0b&currStreakLabel=60a5fa" height="175" alt="Streak Stats" />
 </div>
 
----
-
-### 🐍 CONTRIBUTION ACTIVITY
+### 🕹️ RETRO CYBER ARCADE // PAC-MAN 1984
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mazunai/mazunai/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mazunai/mazunai/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/mazunai/mazunai/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="./assets/arcade-game.svg" width="100%" alt="Retro Pac-Man Cyber Arcade Game" />
 </div>
+
+<p align="center">
+  <a href="https://t.me/mazunio" target="_blank">
+    <img src="https://img.shields.io/badge/🕹️_INSERT_COIN-START_PROJECT-FF3366?style=for-the-badge" alt="Insert Coin" />
+  </a>
+  <img src="https://img.shields.io/badge/HIGH_SCORE-99990-00F0FF?style=for-the-badge" alt="High Score" />
+  <img src="https://img.shields.io/badge/STATUS-FREE_PLAY-10B981?style=for-the-badge" alt="Free Play" />
+</p>
