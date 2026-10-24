@@ -78,25 +78,28 @@
 
 ---
 
-### 📊 ИНЖЕНЕРНЫЕ ПОКАЗАТЕЛИ &amp; ТЕЛЕМЕТРИЯ (SHCODING STUDIO)
+### ⚡ ПРИНЦИПЫ & СКОРОСТЬ РАЗРАБОТКИ (SHCODING STUDIO)
 
 <div align="center">
-  <img src="./assets/dev-metrics.svg" width="100%" alt="Shcoding Studio Telemetry &amp; Capabilities" />
+  <img src="./assets/studio-workflow.svg" width="100%" alt="Shcoding Studio Principles & Velocity" />
 </div>
 
 ---
 
-
-### 🕹️ RETRO CYBER ARCADE // PAC-MAN 1984
+### 💻 PRODUCTION PIPELINE & АРХИТЕКТУРА
 
 <div align="center">
-  <img src="./assets/arcade-game.svg" width="100%" alt="Retro Pac-Man Cyber Arcade Game" />
+  <img src="./assets/ide-pipeline.svg" width="100%" alt="Production Engineering Pipeline" />
 </div>
 
 <p align="center">
   <a href="https://t.me/mazunio" target="_blank">
-    <img src="https://img.shields.io/badge/🕹️_INSERT_COIN-START_PROJECT-FF3366?style=for-the-badge" alt="Insert Coin" />
+    <img src="https://img.shields.io/badge/💬_ОБСУДИТЬ_ПРОЕКТ-TELEGRAM-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
-  <img src="https://img.shields.io/badge/HIGH_SCORE-99990-00F0FF?style=for-the-badge" alt="High Score" />
-  <img src="https://img.shields.io/badge/STATUS-FREE_PLAY-10B981?style=for-the-badge" alt="Free Play" />
+  <a href="https://sh-coding.ru" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_СТУДИЯ-SH--CODING.RU-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <img src="https://img.shields.io/badge/⏱️_MVP_LAUNCH-3_TO_7_DAYS-10B981?style=for-the-badge" alt="Fast Launch" />
+  <img src="https://img.shields.io/badge/🤝_DIRECT_DEV-NO_MIDDLEMEN-8B5CF6?style=for-the-badge" alt="Direct Dev" />
 </p>
+

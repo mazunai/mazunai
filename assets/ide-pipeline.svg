@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="380">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;display=swap');
+      .ide-font {
+        font-family: 'Fira Code', Menlo, Monaco, Consolas, monospace;
+        font-size: 12.5px;
+        line-height: 20px;
+      }
+      .tab-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+      }
+      .status-font {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11px;
+      }
+      .cursor-blink {
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Window Container -->
+  <rect x="1" y="1" width="848" height="378" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Window Header / Titlebar -->
+  <path d="M 1 11 C 1 5.48 5.48 1 11 1 L 837 1 C 842.52 1 847 5.48 847 11 L 847 34 L 1 34 Z" fill="#161b22"/>
+  <line x1="1" y1="34" x2="849" y2="34" stroke="#30363d" stroke-width="1"/>
+
+  <!-- macOS Window Controls -->
+  <circle cx="18" cy="18" r="5.5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5.5" fill="#ffbd2e"/>
+  <circle cx="54" cy="18" r="5.5" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="425" y="21" text-anchor="middle" fill="#8b949e" class="status-font" font-weight="600">pipeline.py — shcoding-studio — Code Editor</text>
+
+  <!-- Editor Tab Bar -->
+  <rect x="1" y="35" width="848" height="30" fill="#11161d"/>
+  <line x1="1" y1="65" x2="849" y2="65" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Active Tab: pipeline.py -->
+  <rect x="1" y="35" width="140" height="30" fill="#0d1117"/>
+  <line x1="1" y1="35" x2="141" y2="35" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="141" y1="35" x2="141" y2="65" stroke="#30363d" stroke-width="1"/>
+  <circle cx="16" cy="50" r="3.5" fill="#38bdf8"/>
+  <text x="26" y="54" fill="#e6edf3" class="tab-font">pipeline.py</text>
+  <text x="126" y="53" fill="#8b949e" class="tab-font" font-size="12">×</text>
+
+  <!-- Inactive Tab: docker-compose.yml -->
+  <rect x="141" y="35" width="160" height="30" fill="#161b22"/>
+  <line x1="301" y1="35" x2="301" y2="65" stroke="#30363d" stroke-width="1"/>
+  <text x="156" y="54" fill="#8b949e" class="tab-font">docker-compose.yml</text>
+
+  <!-- Inactive Tab: requirements.txt -->
+  <rect x="301" y="35" width="140" height="30" fill="#161b22"/>
+  <line x1="441" y1="35" x2="441" y2="65" stroke="#30363d" stroke-width="1"/>
+  <text x="316" y="54" fill="#8b949e" class="tab-font">requirements.txt</text>
+
+  <!-- Line numbers gutter background -->
+  <rect x="1" y="66" width="46" height="286" fill="#0d1117"/>
+  <line x1="47" y1="66" x2="47" y2="352" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Line numbers -->
+  <g class="ide-font" fill="#484f58" text-anchor="end">
+    <text x="38" y="90">1</text>
+    <text x="38" y="108">2</text>
+    <text x="38" y="126">3</text>
+    <text x="38" y="144">4</text>
+    <text x="38" y="162">5</text>
+    <text x="38" y="180">6</text>
+    <text x="38" y="198">7</text>
+    <text x="38" y="216">8</text>
+    <text x="38" y="234">9</text>
+    <text x="38" y="252">10</text>
+    <text x="38" y="270">11</text>
+    <text x="38" y="288">12</text>
+    <text x="38" y="306">13</text>
+    <text x="38" y="324">14</text>
+    <text x="38" y="342">15</text>
+  </g>
+
+  <!-- Code text -->
+  <g class="ide-font">
+    <!-- Line 1: Comment -->
+    <text x="60" y="90" fill="#8b949e"><tspan fill="#8b949e"># Shcoding Studio: End-to-End High-Velocity Dev Pipeline</tspan></text>
+
+    <!-- Line 2: Imports -->
+    <text x="60" y="108"><tspan fill="#ff7b72">from</tspan><tspan fill="#c9d1d9"> dataclasses </tspan><tspan fill="#ff7b72">import</tspan><tspan fill="#c9d1d9"> dataclass</tspan></text>
+
+    <!-- Line 3: Imports -->
+    <text x="60" y="126"><tspan fill="#ff7b72">from</tspan><tspan fill="#c9d1d9"> shcoding </tspan><tspan fill="#ff7b72">import</tspan><tspan fill="#c9d1d9"> FastLaunch, AiPairEngine, ProductionStack</tspan></text>
+
+    <!-- Line 4: Blank -->
+
+    <!-- Line 5: Decorator -->
+    <text x="60" y="162"><tspan fill="#d2a8ff">@dataclass</tspan></text>
+
+    <!-- Line 6: Class definition -->
+    <text x="60" y="180"><tspan fill="#ff7b72">class</tspan><tspan fill="#ffa657"> ProjectSprint</tspan><tspan fill="#c9d1d9">:</tspan></text>
+
+    <!-- Line 7: Attributes -->
+    <text x="80" y="198"><tspan fill="#79c0ff">time_to_mvp</tspan><tspan fill="#ff7b72">: </tspan><tspan fill="#ffa657">str</tspan><tspan fill="#c9d1d9"> = </tspan><tspan fill="#a5d6ff">&quot;3 to 7 business days&quot;</tspan></text>
+
+    <!-- Line 8: Attributes -->
+    <text x="80" y="216"><tspan fill="#79c0ff">core_stack</tspan><tspan fill="#ff7b72">: </tspan><tspan fill="#ffa657">tuple</tspan><tspan fill="#c9d1d9"> = (</tspan><tspan fill="#a5d6ff">&quot;FastAPI&quot;</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">&quot;Next.js&quot;</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">&quot;PostgreSQL&quot;</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">&quot;Docker&quot;</tspan><tspan fill="#c9d1d9">)</tspan></text>
+
+    <!-- Line 9: Attributes -->
+    <text x="80" y="234"><tspan fill="#79c0ff">direct_contact</tspan><tspan fill="#ff7b72">: </tspan><tspan fill="#ffa657">str</tspan><tspan fill="#c9d1d9"> = </tspan><tspan fill="#a5d6ff">&quot;t.me/mazunio&quot;</tspan><tspan fill="#8b949e">  # No middlemen, direct dev</tspan></text>
+
+    <!-- Line 10: Blank -->
+
+    <!-- Line 11: Async function -->
+    <text x="60" y="270"><tspan fill="#ff7b72">async def</tspan><tspan fill="#d2a8ff"> ship_product</tspan><tspan fill="#c9d1d9">(client_idea: </tspan><tspan fill="#ffa657">str</tspan><tspan fill="#c9d1d9">) -&gt; </tspan><tspan fill="#ffa657">Deployment</tspan><tspan fill="#c9d1d9">:</tspan></text>
+
+    <!-- Line 12: Pipeline body -->
+    <text x="80" y="288"><tspan fill="#c9d1d9">spec = </tspan><tspan fill="#ff7b72">await</tspan><tspan fill="#d2a8ff"> analyze_and_architect</tspan><tspan fill="#c9d1d9">(client_idea)</tspan></text>
+
+    <!-- Line 13: Pipeline body -->
+    <text x="80" y="306"><tspan fill="#c9d1d9">code = </tspan><tspan fill="#ff7b72">await</tspan><tspan fill="#d2a8ff"> develop_with_ai_speed</tspan><tspan fill="#c9d1d9">(spec, stack=ProjectSprint.core_stack)</tspan></text>
+
+    <!-- Line 14: Pipeline body -->
+    <text x="80" y="324"><tspan fill="#ff7b72">return await</tspan><tspan fill="#d2a8ff"> deploy_to_cloud</tspan><tspan fill="#c9d1d9">(code, domain=</tspan><tspan fill="#a5d6ff">&quot;sh-coding.ru&quot;</tspan><tspan fill="#c9d1d9">)</tspan><tspan class="cursor-blink" fill="#38bdf8">█</tspan></text>
+  </g>
+
+  <!-- VS Code Status Bar -->
+  <path d="M 1 352 L 849 352 L 849 370 C 849 375.52 844.52 380 839 380 L 11 380 C 5.48 380 1 375.52 1 370 Z" fill="#007acc"/>
+  
+  <g class="status-font" fill="#ffffff">
+    <!-- Left status items -->
+    <text x="14" y="366" font-weight="600">⎇ main*</text>
+    <text x="75" y="366">⊘ 0   ⚠ 0</text>
+    <text x="145" y="366">✓ Shcoding Studio CI: Passing</text>
+
+    <!-- Right status items -->
+    <text x="560" y="366">Ln 14, Col 62</text>
+    <text x="645" y="366">UTF-8</text>
+    <text x="700" y="366">Python 3.12</text>
+    <text x="785" y="366">{ } Python</text>
+  </g>
+</svg>
